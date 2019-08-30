@@ -6,6 +6,8 @@ import Avatar from "../Avatar";
 import './styles.css';
 
 function UsersListing({ users }: IUseUsers): React.FunctionComponentElement<{}> {
+    if (!users.length) return <div className="UsersListing">There are no users!</div>;
+
     return (
         <div className="UsersListing">
             {

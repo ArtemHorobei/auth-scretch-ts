@@ -3,11 +3,11 @@ import placeholderUrl from './placeholder.svg';
 
 import './styles.css';
 
-interface _Props {
+interface IPropsAvatar {
     url?: string;
 }
 
-export default function Avatar({ url }: _Props) {
+export default function Avatar({ url }: IPropsAvatar) {
     const { avatar, setAvatar } = useAvatar(url);
 
     return (
