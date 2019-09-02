@@ -1,15 +1,11 @@
 import * as React from 'react';
 
+import { CLIENT_ID, REDIRECT_URI } from '../../common/config';
 import useUsers, { IUseUsers } from './hooks';
 import UsersListing from '../../components/UsersListing';
 
-const CLIENT_ID = "3e014187322f4055ddab";
-const REDIRECT_URI = "https://398b43ff.ngrok.io/users";
-
 function Users(): React.FunctionComponentElement<{}> {
-    const { users, sessionData }: IUseUsers = useUsers([]);
-
-    console.log(sessionData);
+    const { users }: IUseUsers = useUsers([]);
 
     return (
         <div>

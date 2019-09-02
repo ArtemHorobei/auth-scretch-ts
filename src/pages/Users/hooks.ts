@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const CLIENT_ID = "3e014187322f4055ddab";
-const CLIENT_SECRET = "f80e8e2a82ea5d8a0b41c0d63c09c76069f4b24e";
-const REDIRECT_URI = "https://398b43ff.ngrok.io/users";
+import { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI } from '../../common/config';
 
 export type TUser = {
     avatar_url: string,
