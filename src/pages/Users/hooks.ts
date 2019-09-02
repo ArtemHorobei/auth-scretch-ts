@@ -4,7 +4,7 @@ import axios from "axios";
 export type TUser = {
     avatar_url: string,
     login: string,
-    node_id: string,
+    node_id?: string,
 };
 
 export interface IUseUsers {

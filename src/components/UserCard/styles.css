@@ -1,0 +1,7 @@
+.UserCard {
+    align-items: center;
+    display: flex;
+}
+.UserCard_login {
+    margin-left: 1em;
+}

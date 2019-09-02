@@ -50,7 +50,9 @@ function useLogin(): IUseLogin {
                         type,
                     });
                     setLoading(false);
-                    history.push('/users/')
+                    history.push('/users/');
+                    window.localStorage.setItem('token', token);
+                    window.localStorage.setItem('type', type);
                 })
                 .catch(() => setLoading(false))
         }
