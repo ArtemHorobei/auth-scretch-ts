@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router';
 
 import RoutePaths from './paths';
 import {
+    Login,
     ListingUsers,
     UserDetails,
 } from './lazyPages';
@@ -13,12 +14,18 @@ import Loader from '../../components/Loader';
 export default function AppRoutes() {
     return (
         <React.Suspense fallback={<Loader />}>
-            <header>
-                <Header />
-            </header>
+            <Switch>
+                <Route
+                    path={RoutePaths.LOGIN.INDEX}
+                    exact
+                    component={Login}
+                />
 
-            <main>
-                <Switch>
+                <header>
+                    <Header />
+                </header>
+
+                <main>
                     <Route
                         path={RoutePaths.USERS.INDEX}
                         exact
@@ -32,12 +39,12 @@ export default function AppRoutes() {
                     />
 
                     <Redirect to={RoutePaths.USERS.INDEX} />
-                </Switch>
-            </main>
+                </main>
 
-            <footer>
-                <Footer />
-            </footer>
+                <footer>
+                    <Footer />
+                </footer>
+            </Switch>
         </React.Suspense>
     );
 }

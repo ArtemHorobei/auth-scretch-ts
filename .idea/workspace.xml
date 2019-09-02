@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf2269c-e136-4ebb-a896-205f430007b8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Users/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/hooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes/lazyPages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes/lazyPages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes/paths.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes/paths.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +41,8 @@
           <entry key="json" value="4" />
           <entry key="jsx" value="1" />
           <entry key="svg" value="1" />
-          <entry key="ts" value="18" />
-          <entry key="tsx" value="23" />
+          <entry key="ts" value="20" />
+          <entry key="tsx" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -54,36 +55,36 @@
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript" value="18" />
-          <entry key="TypeScript JSX" value="23" />
+          <entry key="TypeScript" value="20" />
+          <entry key="TypeScript JSX" value="28" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="139" />
-          <entry key="env" value="22" />
+          <entry key="env" value="27" />
           <entry key="gitignore" value="10" />
           <entry key="html" value="12" />
           <entry key="js" value="1" />
           <entry key="json" value="8" />
           <entry key="jsx" value="327" />
-          <entry key="ts" value="1849" />
-          <entry key="tsx" value="2040" />
-          <entry key="txt" value="94" />
+          <entry key="ts" value="2100" />
+          <entry key="tsx" value="2237" />
+          <entry key="txt" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="22" />
+          <entry key=".env file" value="27" />
           <entry key="CSS" value="139" />
           <entry key="HTML" value="12" />
           <entry key="JSON" value="8" />
           <entry key="JSX Harmony" value="327" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="104" />
-          <entry key="TypeScript" value="1849" />
-          <entry key="TypeScript JSX" value="2040" />
+          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="TypeScript" value="2100" />
+          <entry key="TypeScript JSX" value="2237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -99,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Users/hooks.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-end-line="71" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -109,23 +110,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/config.ts">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="35" />
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="43" />
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="41" />
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/src/pages/Login/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="1" column="19" selection-start-line="1" selection-end-line="1" selection-end-column="19" />
-              <caret line="2" column="23" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-              <caret line="3" column="22" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Login/hooks.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+              <folding>
+                <element signature="n#!!block;n#TUser#0" />
+                <element signature="e#1026#1109#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,20 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/routes/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -164,13 +168,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/UsersListing/index.tsx">
+        <entry file="file://$PROJECT_DIR$/src/app/routes/lazyPages.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -178,8 +179,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/routes/paths.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layouts/CommonPageLayout/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hocs/asLazyPage.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,6 +211,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>react-router</find>
+      <find>CommonPage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,7 +232,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/Header/header.tsx" />
         <option value="$PROJECT_DIR$/src/containers/Loader/index.tsx" />
-        <option value="$PROJECT_DIR$/src/app/routes/index.tsx" />
         <option value="$PROJECT_DIR$/src/layouts/CommonPageLayout/index.tsx" />
         <option value="$PROJECT_DIR$/src/app/index.tsx" />
         <option value="$PROJECT_DIR$/src/containers/Footer/index.tsx" />
@@ -217,20 +239,23 @@
         <option value="$PROJECT_DIR$/src/pages/User/index.tsx" />
         <option value="$PROJECT_DIR$/src/hocs/asLazyPage.tsx" />
         <option value="$PROJECT_DIR$/src/components/Avatar/styles.css" />
-        <option value="$PROJECT_DIR$/src/app/routes/lazyPages.tsx" />
         <option value="$PROJECT_DIR$/src/components/UsersListing/styles.css" />
         <option value="$PROJECT_DIR$/src/containers/Footer/styles.css" />
         <option value="$PROJECT_DIR$/src/containers/Header/styles.css" />
         <option value="$PROJECT_DIR$/src/components/Avatar/index.tsx" />
         <option value="$PROJECT_DIR$/src/app/redux/createRootReducer.ts" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/app/routes/paths.ts" />
         <option value="$PROJECT_DIR$/src/components/UsersListing/index.tsx" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/common/config.ts" />
         <option value="$PROJECT_DIR$/src/pages/Users/hooks.ts" />
         <option value="$PROJECT_DIR$/src/pages/Users/index.tsx" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/app/routes/paths.ts" />
+        <option value="$PROJECT_DIR$/src/app/routes/lazyPages.tsx" />
+        <option value="$PROJECT_DIR$/src/app/routes/index.tsx" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/pages/Login/index.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/Login/hooks.ts" />
       </list>
     </option>
   </component>
@@ -283,13 +308,34 @@
               <item name="auth-scretch-ts" type="b2602c69:ProjectViewProjectNode" />
               <item name="auth-scretch-ts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-scretch-ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-scretch-ts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-scretch-ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-scretch-ts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonPageLayout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auth-scretch-ts" type="b2602c69:ProjectViewProjectNode" />
               <item name="auth-scretch-ts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auth-scretch-ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auth-scretch-ts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auth-scretch-ts" type="b2602c69:ProjectViewProjectNode" />
@@ -319,17 +365,18 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/Login" />
+      <recent name="$PROJECT_DIR$/src/components/Avatar" />
+      <recent name="$PROJECT_DIR$/src/containers/Header" />
+      <recent name="$PROJECT_DIR$/src/pages/User" />
+      <recent name="$PROJECT_DIR$/src/app/routes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$/src/app/App" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Avatar" />
-      <recent name="$PROJECT_DIR$/src/containers/Header" />
-      <recent name="$PROJECT_DIR$/src/pages/User" />
-      <recent name="$PROJECT_DIR$/src/app/routes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,7 +404,7 @@
       <workItem from="1567156297009" duration="10985000" />
       <workItem from="1567169600369" duration="8612000" />
       <workItem from="1567410053131" duration="4476000" />
-      <workItem from="1567416401754" duration="3374000" />
+      <workItem from="1567416401754" duration="5319000" />
     </task>
     <task id="LOCAL-00001" summary="Fix gitignore">
       <created>1567156409684</created>
@@ -394,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567420515472</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor session key">
+      <created>1567421248025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567421248025</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27447000" />
+    <option name="totallyTimeSpent" value="29392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -470,7 +524,8 @@
     <MESSAGE value="Add store and basic components" />
     <MESSAGE value="Fix listing" />
     <MESSAGE value="Add draft with session token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add draft with session token" />
+    <MESSAGE value="Refactor session key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor session key" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
@@ -522,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/CommonPageLayout/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Avatar/placeholder.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -538,16 +586,6 @@
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hocs/asLazyPage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/routes/lazyPages.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UsersListing/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -570,6 +608,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,6 +618,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,6 +642,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,16 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/routes/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UsersListing/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -635,26 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/routes/paths.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="135" column="74" selection-start-line="135" selection-start-column="74" selection-end-line="135" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="1" column="19" selection-start-line="1" selection-end-line="1" selection-end-column="19" />
-          <caret line="2" column="23" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-          <caret line="3" column="22" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -667,13 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Users/hooks.ts">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -687,10 +705,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Users/hooks.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/routes/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/routes/paths.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/CommonPageLayout/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/routes/lazyPages.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hocs/asLazyPage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Login/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Login/hooks.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!block;n#TUser#0" />
+            <element signature="e#1026#1109#0" />
+          </folding>
         </state>
       </provider>
     </entry>
