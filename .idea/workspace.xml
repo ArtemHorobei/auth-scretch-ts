@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf2269c-e136-4ebb-a896-205f430007b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UserCard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/artem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/artem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes/unauthRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/routes/unauthRoute.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersListing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UsersListing/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersListing/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCard/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/hooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/User/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/User/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Users/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users/hooks.ts" afterDir="false" />
-    </list>
+    <list default="true" id="fbf2269c-e136-4ebb-a896-205f430007b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -149,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Login/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -285,10 +273,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="1984" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -329,7 +317,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/babilonia-web" />
+    <property name="last_opened_file_path" value="$USER_HOME$/nurture-web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -380,7 +368,7 @@
       <workItem from="1567156297009" duration="10985000" />
       <workItem from="1567169600369" duration="8612000" />
       <workItem from="1567410053131" duration="4476000" />
-      <workItem from="1567416401754" duration="15769000" />
+      <workItem from="1567416401754" duration="15957000" />
     </task>
     <task id="LOCAL-00001" summary="Fix gitignore">
       <created>1567156409684</created>
@@ -445,16 +433,23 @@
       <option name="project" value="LOCAL" />
       <updated>1567429256467</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor session key">
+      <created>1567436534274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567436534274</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39842000" />
+    <option name="totallyTimeSpent" value="40030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -467,10 +462,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Reviews" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32975295" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32975295" />
       <window_info anchor="bottom" id="GraphQL" order="10" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32975295" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32975295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -812,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Login/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
