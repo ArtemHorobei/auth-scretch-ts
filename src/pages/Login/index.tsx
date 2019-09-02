@@ -6,8 +6,6 @@ import useLogin from './hooks';
 function Login(): React.FunctionComponentElement<{}> {
     const { sessionData, isLoading } = useLogin();
 
-    console.log(sessionData, isLoading);
-
     if (isLoading) return <div>Loading...</div>;
 
     return (
