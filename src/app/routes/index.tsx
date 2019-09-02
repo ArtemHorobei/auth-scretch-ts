@@ -10,41 +10,44 @@ import {
 import Header from '../../containers/Header';
 import Footer from '../../containers/Footer';
 import Loader from '../../components/Loader';
+import AuthRoute from './authRoute';
+import UnauthRoute from './unauthRoute';
 
 export default function AppRoutes() {
     return (
         <React.Suspense fallback={<Loader />}>
-            <Switch>
-                <Route
+            <header>
+                <Header />
+            </header>
+
+            <main>
+                <Switch>
+                  <UnauthRoute
                     path={RoutePaths.LOGIN.INDEX}
                     exact
                     component={Login}
-                />
+                  />
 
-                <header>
-                    <Header />
-                </header>
+                  <AuthRoute
+                    path={RoutePaths.USERS.INDEX}
+                    exact
+                    component={ListingUsers}
+                  />
 
-                <main>
-                    <Route
-                        path={RoutePaths.USERS.INDEX}
-                        exact
-                        component={ListingUsers}
-                    />
+                  <AuthRoute
+                    path={RoutePaths.USER.INDEX}
+                    exact
+                    component={UserDetails}
+                  />
 
-                    <Route
-                        path={RoutePaths.USER.INDEX}
-                        exact
-                        component={UserDetails}
-                    />
+                  <Redirect to={RoutePaths.USERS.INDEX} />
+                </Switch>
 
-                    <Redirect to={RoutePaths.USERS.INDEX} />
-                </main>
+            </main>
 
-                <footer>
-                    <Footer />
-                </footer>
-            </Switch>
+            <footer>
+                <Footer />
+            </footer>
         </React.Suspense>
     );
 }

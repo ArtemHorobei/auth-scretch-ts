@@ -1,8 +1,15 @@
 import * as React from 'react';
+import { ReactNode } from "react";
 
-function CommonPageLayout(): React.FunctionComponentElement<{}> {
+type Props = {
+    children: ReactNode
+}
+
+function CommonPageLayout(props: Props): React.FunctionComponentElement<{}> {
     return (
-        <div>CommonPageLayout</div>
+        <div style={{ margin: '3rem 0' }}>
+            {props.children}
+        </div>
     );
 }
 

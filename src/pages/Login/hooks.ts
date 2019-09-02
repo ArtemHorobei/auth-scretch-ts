@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 import { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI } from '../../common/config';
+import { history } from '../../app/redux/configureStore';
 
 export type TSession = {
     token?: string,
@@ -18,11 +19,11 @@ function useLogin(): IUseLogin {
     const [sessionData, setSessionData] = useState({ token: '', type: '' });
 
     function handleLogin() {
-        setLoading(true);
-
         const oAuthCode = window.location.href.split('?code=')[1];
 
         if (oAuthCode) {
+            setLoading(true);
+
             axios
                 .post(
                     `https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token`,
@@ -49,11 +50,10 @@ function useLogin(): IUseLogin {
                         type,
                     });
                     setLoading(false);
-
+                    history.push('/users/')
                 })
                 .catch(() => setLoading(false))
         }
-        setLoading(false);
     }
 
     useEffect(() => handleLogin(), []);
